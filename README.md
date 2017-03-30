@@ -64,10 +64,3 @@ Examples:
 * `vagrant destroy` destroys all traces of the VMs, but leaves the
   cached images
 * `vagrant box remove ...` removes the downloaded image file.
-
-# Reference material
-* [Vagrant](http://vagrantup.com)
-* [VirtualBox](http://www.virtualbox.org)
-* [Varnish](https://varnish-cache.org)
-* [Bind](https://www.isc.org/downloads/bind/)
-
