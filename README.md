@@ -68,6 +68,6 @@ Examples:
 # Reference material
 * [Vagrant](http://vagrantup.com)
 * [VirtualBox](http://www.virtualbox.org)
-* [HAProxy](http://haproxy.1wt.eu/)
-* [Keepalived](http://www.keepalived.org/)
+* [Varnish](https://varnish-cache.org)
+* [Bind](https://www.isc.org/downloads/bind/)
 
