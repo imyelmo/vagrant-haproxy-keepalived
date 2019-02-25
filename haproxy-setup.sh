@@ -51,8 +51,8 @@ backend webservers
     option httpchk
     option forwardfor
     option http-server-close
-    server web1 192.168.1.11:80 maxconn 32 check
-    server web2 192.168.1.12:80 maxconn 32 check
+    server web1 192.168.2.11:80 maxconn 32 check
+    server web2 192.168.2.12:80 maxconn 32 check
 EOD
 
 cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.orig
@@ -78,7 +78,7 @@ vrrp_instance VI_1 {
         virtual_router_id 51
         priority $1
         virtual_ipaddress {
-            192.168.1.2
+            192.168.2.2
         }
         track_script {
             chk_haproxy
