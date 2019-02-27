@@ -6,6 +6,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # Install haproxy
+/usr/bin/apt-get -y update
 /usr/bin/apt-get -y install haproxy keepalived
 
 # Configure haproxy
