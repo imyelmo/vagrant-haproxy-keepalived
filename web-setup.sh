@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install apache
+/usr/bin/apt-get -y update
 /usr/bin/apt-get -y install apache2
 cat > /var/www/index.html <<EOD
 <html><head><title>${HOSTNAME}</title></head><body><h1>${HOSTNAME}</h1>
